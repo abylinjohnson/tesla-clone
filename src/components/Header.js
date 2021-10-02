@@ -10,25 +10,25 @@ function Header() {
   console.log(cars);
   return (
     <Container>
-      <a>
-        <img src="/images/logo.svg" alt="" />
-      </a>
+      <Button>
+        <img src="/images/logo.svg" alt="the tesla logo" />
+      </Button>
       <Menu>
-        <a href="#">Model S</a>
+        <Button>Model S</Button>
 
-        <a href="#">Model 3</a>
+        <Button>Model 3</Button>
 
-        <a href="#">Model X</a>
+        <Button>Model X</Button>
 
-        <a href="#">Model Y</a>
+        <Button>Model Y</Button>
 
-        <a href="#">Solar Roof</a>
+        <Button>Solar Roof</Button>
 
-        <a href="#">Solar Panels</a>
+        <Button>Solar Panels</Button>
       </Menu>
       <RightMenu>
-        <a href="#">SHOP</a>
-        <a href="#">ACCOUNT</a>
+        <Button>SHOP</Button>
+        <Button>ACCOUNT</Button>
       </RightMenu>
       <MenuIcon>
         <Button onClick={() => setburgerStatus(false)}>MENU</Button>
@@ -38,40 +38,40 @@ function Header() {
           <CustomClose onClick={() => setburgerStatus(true)} />
         </CloseWrapper>
         <li>
-          <a href="#">Existing Inventory</a>
+          <Button href="">Existing Inventory</Button>
         </li>
         <li>
-          <a href="#">Used Inventory</a>
+          <Button>Used Inventory</Button>
         </li>
         <li>
-          <a href="#">Trade-in</a>
+          <Button>Trade-in</Button>
         </li>
         <li>
-          <a href="#">Cybertruck</a>
+          <Button>Cybertruck</Button>
         </li>
         <li>
-          <a href="#">Roadster</a>
+          <Button>Roadster</Button>
         </li>
         <li>
-          <a href="#">Semi</a>
+          <Button>Semi</Button>
         </li>
         <li>
-          <a href="#">Charging</a>
+          <Button>Charging</Button>
         </li>
         <li>
-          <a href="#">Powerwall</a>
+          <Button>Powerwall</Button>
         </li>
         <li>
-          <a href="#">Commercial Energy</a>
+          <Button>Commercial Energy</Button>
         </li>
         <li>
-          <a href="#">Utilities</a>
+          <Button>Utilities</Button>
         </li>
         <li>
-          <a href="#">Find Us</a>
+          <Button>Find Us</Button>
         </li>
         <li>
-          <a href="#">Support</a>
+          <Button>Support</Button>
         </li>
       </BurgerNav>
     </Container>
